@@ -1,9 +1,5 @@
 #**Traffic Sign Recognition** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -19,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./report/1.pmg "Visualization"
+[image1]: ./report/1.png "Visualization"
 [image2]: ./report/sign1.png "Sign 1"
 [image3]: ./report/sign2.png "Sign 2"
 [image4]: ./report/sign3.png "Sign 3"
