@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./report/1.jpg "Visualization"
+[image1]: ./report/1.pmg "Visualization"
 [image2]: ./report/sign1.png "Sign 1"
 [image3]: ./report/sign2.png "Sign 2"
 [image4]: ./report/sign3.png "Sign 3"
@@ -33,10 +33,6 @@ The goals / steps of this project are the following:
 
 ---
 ###Writeup / README
-
-####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
-
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ###Data Set Summary & Exploration
 
@@ -121,8 +117,8 @@ I tried adding batch normalization to speed up the training but the results were
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image2] ![alt text][image3] ![alt text][image4] 
+![alt text][image5] ![alt text][image6]
 
 All the images were high quality and easy to classify. The only one more challenging was the 60 speed limit, because it is easily confused with speed limits for other speed
 This one was indeed the only failed image, because it recognised it as a speed limit of 30. The resulting accuracy was 0.8
@@ -156,7 +152,7 @@ Next are the images ordered by how confident the model was of their detection.
 
 In this image, you can see all the images and their probabilities.
 
-![alt text][image8]
+![alt text][image7]
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
