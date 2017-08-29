@@ -63,10 +63,10 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 28x28x6 	|
+| Convolution 5x5     	| 1x1 stride, same padding, outputs 28x28x6 	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 14x14x16 				|
-| Convolution 3x3	    | 14x14x6, outputs 10x10x16 					|
+| Convolution 5x5	    | 14x14x6, outputs 10x10x16 					|
 | RELU					|        										|
 | Max Pooling			| 5x5x16       									|
 | Fully connected		| input 400, output 400     					|
@@ -89,7 +89,7 @@ I kept the learning rate at 0.001 and the optimizer was Adam
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* validation set accuracy of 0.932
+* validation set accuracy of 0.935
 * test set accuracy of 0.89
 
 If an iterative approach was chosen:
@@ -149,6 +149,11 @@ Next are the images ordered by how confident the model was of their detection.
 In this image, you can see all the images and their probabilities.
 
 ![alt text][image7]
+
+####How does the accuracy in the new images compare to the model's accuracy in the original test set?
+It's difficult to say because of the low number of samples. The accuracy of the test set was 0.89 and the accuracy of the new images was 0.8.
+While they were new images, they also were very high quality pictures, compared to the more realistic images of the test set.
+I think in general, though a 0.8 means the model has generalized well, and the simple images work well. The only image with problems was the one with the speed sign, which presumably already had problems in the original datasets.
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
